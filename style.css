@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 80px;
+    width: 100%;
+    background-image:url('https://www.calculators.org/graphics/math-temperature-atmosphere.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: rgba(255, 255, 255, 0.2); 
+    border: 5px solid #292929;
+    backdrop-filter: blur(8px);
+
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+h2 {
+    color: black;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#celcius, #fahrenheit, #kelvin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+input {
+    flex:5;
+    height: 55px;
+    font-size: 20px;
+    width: 298px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border: 2px solid #222;
+    border-radius: 8px;
+    padding: 0 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
